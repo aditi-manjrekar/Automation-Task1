@@ -64,7 +64,7 @@ From_ = "aditi_manjrekar@dell.com"
 msg = MIMEText(Weather)
 msg['Subject'] = 'Weather Data From Aditi - Task 1'
 msg['From'] = 'aditimanjrekar2@gmail.com'
-msg['To'] = 'aditimanjrekar2@gmail.com'
+msg['To'] = 'aditi_manjrekar@dell.com'
 
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 server.login("aditimanjrekar2@gmail.com", "aditi@1203")
