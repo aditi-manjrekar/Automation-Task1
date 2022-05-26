@@ -3,6 +3,7 @@ from selenium import webdriver
 import smtplib
 from email.mime.text import MIMEText
 
+#get weather data
 def Get_Weather_Data():
     driver = webdriver.Chrome('C://Users/bdcsw/Downloads/chromedriver_win32/chromedriver.exe')
     driver.get("https://www.accuweather.com/en/in/bengaluru/204108/current-weather/204108") 
