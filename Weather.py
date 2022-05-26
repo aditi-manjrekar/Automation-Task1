@@ -60,7 +60,7 @@ Weather = Get_Weather_Data()
 
 
 To_ = "aditimanjrekar2@gmail.com"
-From_ = "aditimanjrekar2@gmail.com"
+From_ = "aditi_manjrekar@dell.com"
 msg = MIMEText(Weather)
 msg['Subject'] = 'Weather Data From Aditi - Task 1'
 msg['From'] = 'aditimanjrekar2@gmail.com'
